@@ -88,4 +88,33 @@ $navbar-default-link-color: #493C33;
 	margin-bottom: 10px;
 }
 
+.pin-header {
+
+	text-align: center;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+.actions > .btn {
+
+	margin-bottom: 10px;
+}
+
+tr {
+
+	margin-bottom: 15px;
+}
+
+td .btn {
+
+	margin-left: 10px;
+}
+
+th {
+
+	font-size: 25px;
+	font-family: 'Raleway' , sans-serif;
+
+}
+
 @import 'bootstrap';
