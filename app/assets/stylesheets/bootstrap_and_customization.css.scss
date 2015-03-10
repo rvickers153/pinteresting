@@ -1,12 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 
-
+$navbar-default-bg: rgba(201,220,223, 0.5);
 $navbar-default-link-color: #493C33;
+$navbar-default-link-hover-color: #CBA79C;
+$navbar-default-brand-hover-color: #CBA79C;
 
-.nav-pills {
-	
-	padding-right: 15px;
-}
 
 .jumbotron {
   text-align: center;
@@ -36,17 +34,6 @@ $navbar-default-link-color: #493C33;
 .btn-success {
 
 	margin-left: 10px;
-}
-
-.nav li {
-	
-	font-size: 20px;
-	color: #493C33;
-}
-
-.navbar-brand {
-	
-	font-size: 20px;
 }
 
 .about-header {
