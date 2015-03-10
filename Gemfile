@@ -29,7 +29,7 @@ gem 'devise' , '~> 3.4.1'
 # Adds images to the app
 gem 'paperclip' , '~> 4.2.1'
 # Store images in heroku
-gem 'aws-sdk' , '~> 2.0'
+gem 'aws-sdk' , '< 2.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
