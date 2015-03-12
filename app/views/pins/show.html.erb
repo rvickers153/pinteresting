@@ -1,12 +1,19 @@
-<%= image_tag @pin.image.url(:medium) %>
+<div class="back-nav">
+	<%= link_to 'Back', pins_path, class: "btn btn-primary btn-lg" %>
+</div>
 
-<p>
-  <strong>Description:</strong>
-  <%= @pin.description %>
-</p>
+<div class="show-img">
+	<%= image_tag @pin.image.url(:medium) %>
+	
 
-<% if @pin.user == current_user %>
-	<%= link_to 'Edit', edit_pin_path(@pin) %> |
-<% end %>
+	<p>
+	  <%= @pin.description %><br>
+	  <strong><%= @pin.user.email if @pin.user %></strong>
+	</p>
 
-<%= link_to 'Back', pins_path %>
+	<% if @pin.user == current_user %>
+		<%= link_to 'Edit', edit_pin_path(@pin) %> |
+	<% end %>
+
+	<%= link_to 'Back', pins_path %>
+</div>
