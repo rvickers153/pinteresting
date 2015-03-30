@@ -10,8 +10,10 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *= require 'bootstrap_and_customization'
  *= require 'masonry/transitions'
- *= require_tree .
+ *= require 'pages'
+ *= require 'pins'
  *= require_self
  */
 
